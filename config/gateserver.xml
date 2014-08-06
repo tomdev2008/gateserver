@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+	<common loglevel="debug" zoneid="1" servertype="6" serverid="1" nettype="0"/>
+	<filesize log="314572800"/>
+	<net>
+		<listen address="any" port="17906" max_connect_num="100" type="inside" desc='clent'/>
+		<listen address="any" port="8006" max_connect_num="300" type="outside" desc='server'/>
+	</net>
+	
+	<peers>
+		<peer peeraddress="192.168.80.130" peerport="17904" servertype="4" serverid="1"/>
+		<peer peeraddress="192.168.9.172" peerport="17907" servertype="7" serverid="1"/>
+		<peer peeraddress="192.168.9.173" peerport="17907" servertype="7" serverid="2"/>
+		<peer peeraddress="192.168.9.174" peerport="17907" servertype="7" serverid="3"/>
+		<peer peeraddress="192.168.9.176" peerport="17908" servertype="8" serverid="1"/>
+		<peer peeraddress="192.168.9.172" peerport="17909" servertype="9" serverid="1"/>
+		<peer peeraddress="192.168.9.173" peerport="17909" servertype="9" serverid="2"/>
+		<peer peeraddress="192.168.9.174" peerport="17909" servertype="9" serverid="3"/>
+		<peer peeraddress="192.168.9.175" peerport="17913" servertype="13" serverid="1"/>
+		<peer peeraddress="192.168.9.176" peerport="17916" servertype="16" serverid="1"/>
+		<peer peeraddress="192.168.9.176" peerport="17918" servertype="18" serverid="1"/>
+	</peers>
+</config>
